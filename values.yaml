@@ -4,7 +4,7 @@
 
 image:
   repository: coredns/coredns
-  tag: "1.8.6"
+  tag: "1.9.3"
   pullPolicy: IfNotPresent
 
 replicaCount: 1
@@ -74,8 +74,6 @@ serviceAccount:
 rbac:
   # If true, create & use RBAC resources
   create: true
-  # If true, create and use PodSecurityPolicy
-  pspEnable: false
   # The name of the ServiceAccount to use.
   # If not set and create is true, a name is generated using the fullname template
   # name:

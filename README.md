@@ -68,7 +68,6 @@ The command removes all the Kubernetes components associated with the chart and 
 | `serviceAccount.create`                 | If true, create & use serviceAccount                                                  | false                                                       |
 | `serviceAccount.name`                   | If not set & create is true, use template fullname                                    |                                                             |
 | `rbac.create`                           | If true, create & use RBAC resources                                                  | true                                                        |
-| `rbac.pspEnable`                        | Specifies whether a PodSecurityPolicy should be created.                              | `false`                                                     |
 | `isClusterService`                      | Specifies whether chart should be deployed as cluster-service or normal k8s app.      | true                                                        |
 | `priorityClassName`                     | Name of Priority Class to assign pods                                                 | `""`                                                        |
 | `servers`                               | Configuration for CoreDNS and plugins                                                 | See values.yml                                              |
